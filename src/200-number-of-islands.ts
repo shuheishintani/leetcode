@@ -15,7 +15,7 @@ function numIslands(grid: string[][]): number {
   return numIslands;
 }
 
-const dfs = (grid: string[][], i: number, j: number) => {
+export const dfs = (grid: string[][], i: number, j: number) => {
   if (
     i < 0 ||
     i >= grid.length ||
