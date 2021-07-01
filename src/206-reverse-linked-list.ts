@@ -9,7 +9,7 @@ function reverseList(head: ListNode | null): ListNode | null {
 
   const reversedHead = stack.pop() || null;
   if (!reversedHead) {
-    return null; //
+    return null;
   }
 
   current = reversedHead;
