@@ -19,7 +19,7 @@ class Solution:
 
         return res
 
-    # DP (clearner code)
+    # DP (clearner way)
     def climbStairs2(self, n: int) -> int:
         one, two = 1, 1
 
